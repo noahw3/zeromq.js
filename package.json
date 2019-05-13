@@ -1,12 +1,12 @@
 {
-  "name": "zeromq",
+  "name": "zeromq-stable",
   "version": "5.1.0",
   "description": "ZeroMQ for node.js",
   "main": "index",
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeromq/zeromq.js.git"
+    "url": "https://github.com/noahw3/zeromq.js.git"
   },
   "dependencies": {
     "nan": "^2.10.0",

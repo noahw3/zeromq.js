@@ -1,15 +1,23 @@
 # zeromq.js
 
-[![codecov](https://codecov.io/gh/zeromq/zeromq.js/branch/master/graph/badge.svg)](https://codecov.io/gh/zeromq/zeromq.js)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zeromq/zeromq.js.svg)](https://greenkeeper.io/)
-[![](https://img.shields.io/badge/version-latest-blue.svg)](https://github.com/zeromq/zeromq.js)
-[![Build Status](https://travis-ci.org/zeromq/zeromq.js.svg?branch=master)](https://travis-ci.org/zeromq/zeromq.js)
+[![codecov](https://codecov.io/gh/noahw3/zeromq.js/branch/master/graph/badge.svg)](https://codecov.io/gh/noahw3/zeromq.js)
+[![Greenkeeper badge](https://badges.greenkeeper.io/noahw3/zeromq.js.svg)](https://greenkeeper.io/)
+[![](https://img.shields.io/badge/version-latest-blue.svg)](https://github.com/noahw3/zeromq.js)
+[![Build Status](https://travis-ci.org/noahw3/zeromq.js.svg?branch=master)](https://travis-ci.org/noahw3/zeromq.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/6u7saauir2msxpou?svg=true)](https://ci.appveyor.com/project/zeromq/zeromq-js/branch/master)
-[![](https://img.shields.io/badge/version-stable-blue.svg)](https://github.com/zeromq/zeromq.js/releases)
-[![Build Status](https://travis-ci.org/zeromq/zeromq.js.svg?branch=prebuilt-testing)](https://travis-ci.org/zeromq/zeromq.js)
+[![](https://img.shields.io/badge/version-stable-blue.svg)](https://github.com/noahw3/zeromq.js/releases)
+[![Build Status](https://travis-ci.org/noahw3/zeromq.js.svg?branch=prebuilt-testing)](https://travis-ci.org/noahw3/zeromq.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/w189dgubmg9darun/branch/master?svg=true)](https://ci.appveyor.com/project/zeromq/zeromq-js/branch/prebuilt-testing)
 
 [**Users**](#installation---users) | [**From Source**](#installation---from-source) | [**Contributors and Development**](#installation---contributors-and-development) | [**Maintainers**](#for-maintainers-creating-a-release)
+
+## Fork of [zeromq/zeromq.js](https://github.com/zeromq/zeromq.js) at 5.1.0.
+
+Version 5.0.0 introduced zero-copy logic, which has proven to be leaky and crash-prone.
+This is intended as a quick stopgap to provide Node 10 binaries using the existing logic.
+
+For all problems, create an issue in the main project. This version will not be maintained.
+
 
 **`zeromq`**: Your ready to use, prebuilt [ØMQ](http://www.zeromq.org/)
 bindings for [Node.js](https://nodejs.org/en/).

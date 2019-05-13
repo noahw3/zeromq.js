@@ -48,7 +48,7 @@
 #define ZMQ_CAN_MONITOR (ZMQ_VERSION > 30201)
 #define ZMQ_CAN_SET_CTX (ZMQ_VERSION_MAJOR == 3 && ZMQ_VERSION_MINOR >= 2) || ZMQ_VERSION_MAJOR > 3
 
-#define ZERO_COPY_MESSAGE_SEND 1
+#define ZERO_COPY_MESSAGE_SEND 0
 
 using namespace v8;
 using namespace node;
