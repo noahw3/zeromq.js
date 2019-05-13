@@ -16,6 +16,8 @@
 Version 5.0.0 introduced zero-copy logic, which has proven to be leaky and crash-prone.
 This is intended as a quick stopgap to provide Node 10 binaries using the existing logic.
 
+Unfortunately I couldn't get appveyor to work, so there are no Windows builds.
+
 For all problems, create an issue in the main project. This version will not be maintained.
 
 
