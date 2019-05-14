@@ -2,7 +2,7 @@
   "name": "zeromq-stable",
   "version": "5.2.0",
   "description": "ZeroMQ for node.js",
-  "main": "index",
+  "main": "index.js",
   "gypfile": true,
   "repository": {
     "type": "git",
